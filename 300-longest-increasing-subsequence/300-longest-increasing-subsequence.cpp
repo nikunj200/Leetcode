@@ -51,7 +51,7 @@ public:
         int m = nums.size();
         vector<int> nums2;
         
-        
+        // sort and remove duplicates(only increasing req.)
         nums2.push_back(numsT[0]);
         for(int i=1;i<numsT.size();i++){
             if(numsT[i]!=numsT[i-1]){
